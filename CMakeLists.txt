@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(semaforo-periodico semaforo-periodico.c )
+add_executable(semaforo-periodico semaforo-periodico.c libs/leds.c )
 
 pico_set_program_name(semaforo-periodico "semaforo-periodico")
 pico_set_program_version(semaforo-periodico "0.1")
